@@ -1,6 +1,6 @@
 ## Query - 1
 
-**Description:** Retrieve all booking details along with customer names and vehicle names.
+**Description:** What is a foreign key and why is it important in relational databases?
 
 ```sql
 SELECT
@@ -19,7 +19,7 @@ INNER JOIN vehicles AS v ON v.vehicle_id = b.vehicle_id;
 
 ## Query - 2
 
-**Description:** Find all vehicles that have never been booked.
+**Description:** What is the difference between WHERE and HAVING clauses in SQL?
 
 ```sql
 SELECT *
@@ -36,7 +36,7 @@ ORDER BY vehicle_id;
 
 ## Query - 3
 
-**Description:** Retrieve all vehicles that are of type 'car'.
+**Description:** What is a primary key and what are its characteristics?
 
 ```sql
 SELECT *
@@ -48,7 +48,7 @@ WHERE type = 'car';
 
 ## Query - 4
 
-**Description:** Find vehicles that have been booked more than 2 times, along with their total booking count.
+**Description:** What is the difference between INNER JOIN and LEFT JOIN in SQL?
 
 ```sql
 SELECT
